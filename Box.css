@@ -1,0 +1,48 @@
+/* Margin, border,padding */
+/* margin creates an invisible space around block or element */
+/* border is a stroke or border around the element */
+/* padding creates a space with the background around the element */
+.Boxmini{
+    background-color: blue;
+    text-decoration: aliceblue;
+    width: 150px;
+    height: 150px;
+    
+    margin-left: 5px;  
+    
+    border-left-width: 10px;
+    border-left-color: red;
+    border-style: solid;
+
+    border-bottom-width: 15px;
+    border-bottom-color:yellow;
+
+    border-top-width: 15px;
+    border-top-color: yellow;
+
+    border-right-width: 15px;
+    border-right-color:red;
+
+    padding: 25px 25px 25px 25px ;
+}
+.Boxmidi{
+    background-color:orange;
+    width: 300px;
+    height: 300px;
+    border: 15px;
+    border-style: double;
+
+    border-color:blue;
+    padding: 25px 25px 25px 25px;
+    margin-right:25px;
+}
+.Boxmaxi{
+    background-color:yellow;
+    width: 350px;
+    height: 350px;
+    border: 20px;
+    border-style:solid;
+    border-color:orchid;
+    padding: 100px 100px 100px 100px;
+    margin-left: 100px;
+}
